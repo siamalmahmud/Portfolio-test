@@ -194,10 +194,56 @@ nav {
     margin-left: 30px;
 }
 
-/* Resume section */
+/* Resume section styles */
+
+#resume-title {
+    margin-bottom: 130px;
+}
 
 .resume {
     margin: 130px 200px;
     
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.resume-title {
+    margin-bottom: 30px;
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-descriptions h3 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-descriptions #year {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-container p {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-bottom: 30px;
+    background: #D1D1D1;
+}
+
+#resume-btn {
 
 }
